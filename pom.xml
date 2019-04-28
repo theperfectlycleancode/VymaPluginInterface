@@ -4,23 +4,23 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>VymaSystem</groupId>
-    <artifactId>VymaPluginInterface</artifactId>
+    <groupId>me.samuel.vyma.plugiginterface</groupId>
+    <artifactId>VPluginInterface</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <packaging>jar</packaging>
 
     <properties>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <jdk.version>1.8</jdk.version>
+        <maven.compiler.target>1.9</maven.compiler.target>
+        <maven.compiler.source>1.9</maven.compiler.source>
+        <jdk.version>1.9</jdk.version>
         <jodatime.version>2.5</jodatime.version>
         <junit.version>4.11</junit.version>
         <log4j.version>1.2.17</log4j.version>
     </properties>
 
     <build>
-        <finalName>VymaPluginInterface</finalName>
+        <finalName>VPluginInterface</finalName>
         <plugins>
 
             <!-- download source code in Eclipse, best practice -->
